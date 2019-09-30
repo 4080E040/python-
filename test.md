@@ -31,4 +31,38 @@ list2
 ```
 ## range的技術(3)
 
+```
+list3=range(1,6,2)
+list3
+答案是:
+```
+## range的技術(4)
 
+```
+for dd in range(6):
+   print(dd)
+答案是:
+```
+
+## 程式閱讀題:下列程式執行後會印出什麼？
+
+```
+list1=range(10)
+print(list(list1))
+list2=range(1,10)
+print(list(list2))
+list3=range(1,10,2)
+list4=range(10,1,-2)
+print(list(list3)) 
+print(list(list4))  
+
+答案是:
+```
+## 程式設計題
+
+```
+1.產生1,3,6,7的list
+2.產生1,3,5,7的list
+3.產生1,11,21,31,41,51的list
+3.產生51,41,31,21,11,1的list
+```
